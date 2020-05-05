@@ -1,0 +1,130 @@
+.row {
+  background-color: none;
+  border: none;
+}
+
+.columns {
+  background-color: lightgreen;
+  border-style: solid;
+}
+.menu {
+  background: no;
+  font-size: 15px;
+    }
+  .btn-group .button {
+
+    text-align: center;
+    width: 150px;
+    background: Blue;
+    display: inline-block;
+    padding: 5px;
+{
+
+  .btn-group .button:not(:last-child) {
+     border-bottom: none; /* Prevent double borders */
+}
+  .btn-group .button:hover {
+    background:  lightblue,10%;
+    }
+
+
+}
+
+.breadcrumb {
+  display: inline-block;
+  list-style: none;
+  overflow: hidden;
+  font: 18px;
+}
+.breadcrumb li {
+  display: inline-block;
+  list-style-type: none;
+  float: left;
+}
+.breadcrumb li a{
+  color: black;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  float:left;
+}
+
+.breadcrumbs li a ::after {
+  content: "|";
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+.callout-header-b {
+  border-bottom:1px solid;
+}
+h2 {
+  background-color: slategray;
+}
+a {
+  color: red;
+}
+nav {
+  color: black;
+  text-decoration: none;
+  font-size: 50px;
+}
+.buscar {
+  border-top: 1px solid;
+  padding-top: 15px;
+}
+.callout .fotos {
+  background-color: lightblue;
+}
+@media only screen and (max-width: 768px) {
+  .menu-gral {
+    display: none;
+  }
+}
+@media only screen and (orientation: portrait) {
+  .btn-group {
+    display: center;
+  }
+}
+@media only screen and (orientation: landscape) {
+  .btn-group {
+    display: inline;
+  }
+}
+
+
+li {
+  display: inline;
+  list-style-type: none;
+  }
+}
+
+.encabezado .der .menu-icons li {
+  display: inline;
+  list-style-type: none;
+
+}
+.encabezado {
+  overflow: hidden;
+  background-color: lightblue;
+}
+.logo {
+  float:;
+  background-color: lightgray;
+}
+.der {
+  float:;
+  background-color: red;
+}
+
+
+.menu-icons li {
+
+  background-color:;
+  display: inline-block;
+  list-style-type: none;
+}
+.menu-icons a {
+    color: red;
+    text-align: right;
+}

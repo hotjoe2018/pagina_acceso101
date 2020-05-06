@@ -12,6 +12,7 @@ footer{
 img{
   float: left;
   background: #008080;
+  margin: 10px;
 }
 
 
@@ -22,7 +23,9 @@ p {
   color:silver;
   height: auto;
   width: auto;
+  padding: 15px;
 }
+
 .texto{
   text-align: center;
   height: auto;
@@ -31,7 +34,8 @@ p {
 }
 .container{
   font-family: verdana; color:#008080;
-  background: #008080;
+  background: white;
+  display: 80%;
 }
 .img{
   background-color: #008080;
@@ -78,6 +82,13 @@ text-align: center;
 	font-size: 1.0em;
 	padding: 1em;
 	text-decoration: none;
+}
+.blog {
+  margin-top: 15px;
+  width: auto;
+  text-align: justify;
+  font-size: 0.65em;
+  color:silver;
 }
 
 .history-tl-container{

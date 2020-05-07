@@ -10,11 +10,14 @@ footer{
   font-family: verdana;
 }
 img{
-  float: left;
+  float:right;
   background: #008080;
-  margin: 10px;
+  padding-top: 10px;
+  border-top: 10px;
+  border-bottom: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
-
 
 h2 {
   font-family: verdana;
@@ -35,17 +38,11 @@ p {
 .container{
   font-family: verdana; color:#008080;
   background: white;
-  display: 80%;
+  display: 85%;
 }
 .img{
   background-color: #008080;
 }
-.encabezado {
-margin-top: 30px;
-height: 200px;
-text-align: center;
-}
-
 
 .nombre {
   height: auto;
@@ -56,14 +53,15 @@ text-align: center;
 }
 
 .perfil {
-  margin-top: 15px;
+  border: 0px;
+  border-style: none;
+  margin-top: 0px;
   width: auto;
   text-align: justify;
   font-size: 0.85em;
-  color:silver;
+  color:#e0ebeb;
 }
 /* Styling the navigation */
-
 .nav {
 	background-color: rgba(106, 149, 169, 1.0);
 	color: white;
@@ -72,7 +70,6 @@ text-align: center;
 	list-style: none;
 	text-align: center;
 }
-
 .nav > li {
 	display: inline-block;
 }
@@ -83,13 +80,27 @@ text-align: center;
 	padding: 1em;
 	text-decoration: none;
 }
+
+.mision {
+  border:0px;
+  border-style: none;
+  margin-top: 0px;
+  width: auto;
+  text-align: justify;
+  font-size: 0.75em;
+  color:#e0ebeb;
+}
+
 .blog {
   margin-top: 15px;
   width: auto;
   text-align: justify;
-  font-size: 0.65em;
+  font-size: 0.85em;
   color:silver;
 }
+
+
+
 
 .history-tl-container{
     font-family: "",;
@@ -236,13 +247,7 @@ ul.tl li .timestamp{
 /* termina contacto*/
 
 
-img {
-  padding-top: 10px;
-  border-top: 10px;
-  border-bottom: 10px;
-  padding-bottom: 10px;
-  padding-left: 30px;
-}
+
 
 
 /* MEDIA QUERIES */

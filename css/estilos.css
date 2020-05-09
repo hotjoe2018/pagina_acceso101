@@ -2,7 +2,7 @@
 
 
 body{
-  background: #008080;
+  background:#eff5f5;
 }
 footer{
   margin-top: 20px;
@@ -230,11 +230,14 @@ ul.tl li .timestamp{
   text-decoration: none;
   font-family: verdana;
 }
+.contacto li {
+  list-style:  none;
+}
 .contacto i {
-  font-size: 1.5em;
+  font-size: 1.0em;
 }
 .contacto i a {
-  font-size: 1.5em;
+  font-size: 1.0em;
   color: silver;
 }
 .contacto .cvimprimir{
@@ -243,6 +246,9 @@ ul.tl li .timestamp{
   text-decoration: none;
   font-family: verdana;
 }
+
+
+
 
 /* termina contacto*/
 

@@ -51,6 +51,9 @@ p {
   align-items: center;
   font-size: 0.75em;
 }
+.nombre font{
+  color:maroon;
+}
 
 .perfil {
   border: 0px;
@@ -262,20 +265,23 @@ ul.tl li .timestamp{
 
 @media (min-width: 200px) and (max-width: 600px) {
 	.nav {
-		display: none;
-		text-align: left;
-	}
-	.nav > li {
 		display: block;
+		text-align: center;
+    font-size: 0.75em;
+  }
+
+	.nav > li {
+		display: inline-block;
 	}
 	.nav-btn {
 		display: block;
 		background-color: rgba(106, 149, 169, 1.0);
 		color: #fff;
-		font-size: 1.5em;
+		font-size: 0.25em;
 		text-align: center;
 		cursor: pointer;
 	}
 	.nav-btn:before {
-		content: "Menu";
+    content: "";
+
 	}

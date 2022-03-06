@@ -2,10 +2,15 @@
   background-color: none;
   border: none;
 }
-
+.cinturon {
+  background-color: #FBFCFC;
+}
 .columns {
-  background-color: lightgreen;
-  border-style: solid;
+  background-color: #FBFCFC;
+  border-style: none;
+}
+.img{
+  background-color: #FBFCFC;
 }
 .menu {
   background: no;

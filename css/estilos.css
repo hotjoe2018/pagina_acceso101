@@ -61,7 +61,7 @@ p {
 }
 /* Styling the navigation */
 .nav {
-	background-color:#AAB2BD;
+	background-color: #AAB2BD;
 	padding: 1em 0;
 	margin: 0;
 	list-style: none;
@@ -73,7 +73,7 @@ p {
 
 .nav > li > a {
 	color: #634C4C;
-	font-size: 1.0em;
+	font-size: 0.9em;
 	padding: 1em;
 	text-decoration: none;
 }
